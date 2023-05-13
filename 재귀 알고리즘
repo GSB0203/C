@@ -1,0 +1,22 @@
+재귀란 : 수행 도중 자기 자신을 다시 호출하여 문제를 해결하는 함수 및 알고리즘
+
+재귀 알고리즘 구조
+int factorial(int n)
+{
+    if(n<=1) return 1  //순환을 멈추는 부분
+    else return n * factorial(n-1)  //순환 호출을 하는 부분
+기본 원리
+1.
+def function(입력):
+    if 입력 > 일정값: # 입력이 일정 값 이상이면
+        return function(입력 - 1)  //입력보다 작은 값
+    else:
+        return 일정값, 입력값, 또는 특정값  //재귀 호출 종료
+ 
+ 2.def function(입력):
+    if 입력 <= 일정값:  //입력이 일정 값보다 작으면
+        return 일정값, 입력값, 또는 특정값  //재귀 호출 종료
+    function(입력보다 작은 값)
+    return 결과값
+
+ 
