@@ -5,6 +5,7 @@ int factorial(int n)
 {
     if(n<=1) return 1  //순환을 멈추는 부분
     else return n * factorial(n-1)  //순환 호출을 하는 부분
+    
 기본 원리
 1.
 def function(입력):
