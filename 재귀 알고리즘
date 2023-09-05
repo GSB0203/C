@@ -14,7 +14,7 @@ def function(입력):def 함수(력입):
     else:기타:
         return 일정값, 입력값, 또는 특정값  //재귀 호출 종료return 일정값, 입력값, 또는 특정값  //재귀 호출 종료
  
- 2.def function(입력):2.def 함수(력數):
+ 2.def function(입력):2.def 함수(입력):
     if 입력 <= 일정값:  //입력이 일정 값보다 작으면if 입력 <= 일정값:  //입력이 일정 값보다 작으면
         return 일정값, 입력값, 또는 특정값  //재귀 호출 종료return 일정값, 입력값, 또는 특정값  //재귀 호출 종료
     function(입력보다 작은 값)function(입력보다 작은 값)
