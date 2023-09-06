@@ -8,7 +8,7 @@ int factorial(int n)int 요인 설계(int n)
     
 기본 원리
 1.
-def function(입력):def 함수(력입):
+def function(입력):def 함수(입력):
     if 입력 > 일정값: # 입력이 일정 값 이상이면if 입력 > 일정값: # 입력이 일정 값 이상이면
         return function(입력 - 1)  //입력보다 작은 값반환 함수(입력 - 1) //반환 함수
     else:기타:
