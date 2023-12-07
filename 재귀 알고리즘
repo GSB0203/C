@@ -20,6 +20,4 @@ def function(입력):def 함수(입력):
     function(입력보다 작은 값)function(입력보다 작은 값)
     return 결과값 반환하다
 
-
-
  
