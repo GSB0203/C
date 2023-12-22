@@ -6,7 +6,6 @@ int factorial(int n)int 요인 설계(int n)
     if(n<=1) return 1  //순환을 멈추는 부분if(n<=1) return 1  //순환을 멈추는 부분
     else return n * factorial(n-1)  //순환 호출을 하는 부분그렇지 않으면 n * 요인(n-1) // 요인이 반환됩니다.
 
-
 기본 원리
 1.
 def function(입력):def 함수(입력):
